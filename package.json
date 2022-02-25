@@ -1,0 +1,25 @@
+{
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.3",
+    "morgan": "^1.10.0",
+    "socket.io": "^2.3.0"
+  },
+  "name": "video-chat-server",
+  "description": "video Chat Server",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "start" : "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev" : "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Gn0lee/video-chat-server.git"
+  },
+
+  "license": "ISC",
+  "homepage": "https://github.com/Gn0lee/video-chat-server#readme"
+}
