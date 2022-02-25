@@ -92,6 +92,7 @@ io.on('connection', (socket) => {
       .to(roomId)
       .emit('FE-toggle-camera', { userId: socket.id, switchTarget });
   });
+  socket.emit("hello","hello");
 });
 
 http.listen(PORT, () => {
